@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    
+}
+
+header {
+    background-color:cornflowerblue;
+    padding: 25px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    float:right;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+nav a {
+    margin-left: 25px;
+}
+
+img {
+    background-image:url(../images/background_photo.jpeg);
+    height: 550px; ;
+    width: 100%;
+    margin-top: -5px;
+}
