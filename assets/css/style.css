@@ -6,6 +6,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: lightgray;
     
 }
 
@@ -30,11 +31,42 @@ nav {
 
 nav a {
     margin-left: 25px;
+    color: black;
 }
 
-img {
+#main-img {
     background-image:url(../images/background_photo.jpeg);
     height: 550px; ;
     width: 100%;
     margin-top: -5px;
 }
+
+.about-me {
+    display: flex;
+    align-items: center;
+}
+
+.about-me-header {
+    display: flex;
+    color: black;
+    font-size: 30px;
+    padding: 50px;
+    padding-top: 100px;
+    border-right: 6px solid gray;
+    
+}
+
+#about-me-info {
+    display: flex;
+    width: 50%;
+    line-height: 2;
+    margin-right: 100px;
+    padding-left: 15px;
+}
+
+#about-me-img {
+    background-image: url(../images/IMG_2075.jpg);
+    height: 250px;
+    width: 240px;
+}
+
