@@ -5,6 +5,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-family: sans-serif;
     background-color: lightgray;
     
@@ -12,6 +15,7 @@ body {
 
 header {
     background-color:cornflowerblue;
+    width:100%;
     padding: 25px;
 }
 
@@ -41,9 +45,10 @@ nav a {
     margin-top: -5px;
 }
 
-.about-me {
+#about-me {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .about-me-header {
@@ -51,15 +56,14 @@ nav a {
     color: black;
     font-size: 30px;
     padding: 50px;
-    padding-top: 100px;
+    padding-top: 55px;
     border-right: 6px solid gray;
-    
 }
 
 #about-me-info {
     display: flex;
     width: 50%;
-    line-height: 2;
+    line-height: 2.5;
     margin-right: 100px;
     padding-left: 15px;
 }
@@ -70,3 +74,62 @@ nav a {
     width: 240px;
 }
 
+#my-work {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.my-work-heading {
+    display: flex;
+    align-items: center;
+    padding: 59px;
+    border-right: 6px solid gray;
+    font-size: 30px;
+    height: 100%;
+}
+
+.my-work-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;;
+}
+
+#img1 {
+    width: 366px;
+    border: 2px solid black;
+}
+
+#img2 {
+    border: 3px solid black;
+}
+
+#img3 {
+    border: 3px solid black;
+}
+
+#img4 {
+    border: 3px solid black;
+}
+
+footer {
+    display: flex;
+    background-color: cornflowerblue;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-me-head {
+    display: flex;
+    align-items: center;
+    border-right: 6px solid black;
+    font-size: 30px;
+    padding-right: 27px;
+
+}
+
+#navc-ntc-me {
+    display: flex;
+    align-content: center;
+}
